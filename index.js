@@ -20,7 +20,7 @@ module.exports = function concat(strings) {
   var i = 0; // Used to check if we should add a space before the string is concatenated
 
   for(key in keys) {
-    // We'll concatenate if the key is true is `true`
+    // We'll concatenate if the value of key (`{yolo: true}`) is `true`
   	if ( !!strings[key] )
       result += (i == 0 ? '' : ' ') + key;
 
