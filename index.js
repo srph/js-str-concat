@@ -6,7 +6,7 @@
  *
  * @return string The concatenated string
  */
-module.exports = concat = function concat(strings) {
+module.exports = function concat(strings) {
   // Let's first check of the provided `strings` is not an object
   if ( typeof strings !== 'object') {
     throw new Error(
