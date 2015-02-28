@@ -19,7 +19,7 @@ module.exports = function concat(strings) {
   var result = ''; // Our resulting string, where each string will be concatenated
   var i = 0; // Used to check if we should add a space before the string is concatenated
 
-  for(let key of keys) {
+  for(key in keys) {
     // We'll concatenate if the key is true is `true`
   	if ( !!strings[key] )
       result += (i == 0 ? '' : ' ') + key;
