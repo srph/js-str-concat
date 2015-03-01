@@ -12,10 +12,10 @@ describe('concat', function() {
       'x-class': false,
       'po-class': true,
       'koya-class': true
-    }).toBe('hello-class po-class koya-class');
+    })).toBe('hello-class po-class koya-class');
   });
   
-  it('should only accept boolean value `true`, function() {
+  it('should only accept boolean value `true`', function() {
     expect(concat({
       'mega': 'true',
       'super': true,
@@ -24,6 +24,6 @@ describe('concat', function() {
       // that the consumer should typecast it himself.
       'ultra': !!'yolo', 
       'swag': true
-    }).toBe('super ultra swag');
+    })).toBe('super ultra swag');
   });
 });

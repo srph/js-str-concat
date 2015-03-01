@@ -1,0 +1,33 @@
+{
+  "name": "str-concat",
+  "version": "0.1.0",
+  "description": "Conditionally concatenate strings",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srph/str-concat.js.git"
+  },
+  "keywords": [
+    "concat",
+    "string",
+    "classNames",
+    "class",
+    "classes"
+  ],
+  "author": "srph <seraphipod@gmail.com> (https://srph.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/srph/str-concat.js/issues"
+  },
+  "homepage": "https://github.com/srph/str-concat.js",
+  "devDependencies": {
+    "jasmine": "^2.2.1",
+    "jasmine-node": "^1.14.5"
+  }
+}
