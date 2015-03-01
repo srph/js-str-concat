@@ -59,6 +59,10 @@ For features or fixes, I would suggest to submit an issue first before submittin
 
 At the end of the day, just feel free.
 
+### Building
+
+Check `docs/building`(https://github.com/srph/str-concat.js/blob/master/docs/building.md)
+
 ## Acknowledgement
 
 **str-concat** © 2015+, Kier Borromeo (srph). **str-concat** is released under the [MIT](mit-license.org) license.
