@@ -1,4 +1,4 @@
-var concat = require('../index');
+var concat = require('../src/index');
 
 describe('concat', function() {
   it('should throw an error if given value is not an object', function() {
