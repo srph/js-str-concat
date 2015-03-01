@@ -21,7 +21,7 @@ module.exports = function concat(strings) {
 
   for(key in keys) {
     // We'll concatenate if the value of key (`{yolo: true}`) is `true`
-  	if ( !!strings[key] )
+  	if ( strings[key] === true )
       result += (i == 0 ? '' : ' ') + key;
 
     ++i;
