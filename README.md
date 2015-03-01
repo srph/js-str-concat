@@ -1,5 +1,4 @@
-# str-concat.js
-
+# str-concat.js [![Build Status](https://travis-ci.org/srph/str-concat.js.svg?branch=master)](https://travis-ci.org/srph/str-concat.js?branch=master) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT) [![Author](http://img.shields.io/badge/author-@srph-blue.svg)](http://img.shields.io/badge/author-@srph-blue.svg)
 
 Conditionally concatenate strings.
 
@@ -26,6 +25,16 @@ console.log(classNames) // classNames => className1 className3
 ```
 
 This is helpful for adding `class`es to an `element` conditionally (like in *vanilla*, or in *ReactJS*, for example).
+
+## Installation
+
+- **str-concat.js** is available via [npm ([Github, atm](https://docs.npmjs.com/cli/install))]
+
+```bash
+$ npm install srph/str-concat.js --save
+```
+
+\* *The purpose of the `--save` argument is to add it your `package.json`'s dependencies.*
 
 ## Usage
 
