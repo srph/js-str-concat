@@ -61,7 +61,7 @@ At the end of the day, just feel free.
 
 ### Building
 
-Check `docs/building`(https://github.com/srph/str-concat.js/blob/master/docs/building.md)
+Check [`docs/building`](https://github.com/srph/str-concat.js/blob/master/docs/building.md)
 
 ## Acknowledgement
 
