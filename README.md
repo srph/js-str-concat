@@ -55,9 +55,9 @@ https://rawgit.com/srph/str-concat.js/master/dist/str-concat.min.js
 
 ### Browser-use
 
-If you're not using CommonJS (Browserify, Webpack, w/e), or AMD (Require.JS), simply add the script:
+If you're not using *CommonJS* Modules (*browserify*, *Webpack*, w/e), or *AMD* (*Require.JS*), don't forget to add the `script` tag:
 
-```js
+```html
 <script src="/path/to/str-concat.min.js"></script>
 ```
 
