@@ -6,13 +6,14 @@
     "srph <seraphipod@gmail.com>"
   ],
   "description": "Conditionally concatenate strings",
-  "main": "src/index.js",
+  "main": "dist/str-concat.min.js",
   "keywords": [
     "string",
     "concat",
     "concatenate",
     "classNames",
     "class",
+    "reactjs",
     "react"
   ],
   "license": "MIT",
@@ -21,6 +22,7 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    ".travis.yml"
   ]
 }

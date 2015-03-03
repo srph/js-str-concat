@@ -1,0 +1,14 @@
+# ignore tests
+test
+tests
+
+# exclude releases / bundles / compiled files
+dist
+
+# is bower.json even needed?
+bower.json
+
+# misc
+.travis.yml
+.gitignore
+docs
