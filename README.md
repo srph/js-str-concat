@@ -28,13 +28,38 @@ This is helpful for adding `class`es to an `element` conditionally (like in *van
 
 ## Installation
 
-- **str-concat.js** is available via [npm ([Github, atm](https://docs.npmjs.com/cli/install))]
+- **str-concat.js** is available via [**npm**]
 
 ```bash
-$ npm install srph/str-concat.js --save
+$ npm install srph-str-concat.js --save
 ```
 
-\* *The purpose of the `--save` argument is to add it your `package.json`'s dependencies.*
+- **str-concat.js** is available via [**bower**]
+
+```bash
+$ bower install srph-str-concat.js --save
+```
+
+\* *The purpose of the `--save` argument is to add it your `package.json`''s or `bower.json`'s dependencies.*
+
+- **str-concat.js** is available via [**RawGit** (CDN)]
+
+```
+<!-- use this on production -->
+https://cdn.rawgit.com/srph/str-concat.js/master/dist/str-concat.min.js
+<!-- otherwise use this for development / testing -->
+https://rawgit.com/srph/str-concat.js/master/dist/str-concat.min.js
+```
+
+\* *If you're not sure which to use, just use the first one.*
+
+### Browser-use
+
+If you're not using CommonJS (Browserify, Webpack, w/e), or AMD (Require.JS), simply add the script:
+
+```js
+<script src="/path/to/str-concat.min.js"></script>
+```
 
 ## Usage
 
@@ -53,15 +78,30 @@ var classNames = concat({
 console.log(classNames) // => col-md-6 form-group
 ```
 
+### Browser-use
+
+For those who use it directly in the browser, you can use it like so:
+
+```js
+strConcat({
+  'form-group': true,
+  'yolo-class': false
+}) // => form-group;
+```
+
 ## Contributing
 
 For features or fixes, I would suggest to submit an issue first before submitting a pull request. This avoids closed pull-requests; useless work.
 
-At the end of the day, just feel free.
+At the end of the day, just feel free to inquire for anything!
 
 ### Building
 
 Check [`docs/building`](https://github.com/srph/str-concat.js/blob/master/docs/building.md).
+
+## FAQ
+
+Check [`docs/faq`](https://github.com/srph/str-concat.js/blob/master/docs/faq.md).
 
 ## Changelog
 
