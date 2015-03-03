@@ -53,6 +53,16 @@ var classNames = concat({
 console.log(classNames) // => col-md-6 form-group
 ```
 
+## Contributing
+
+For features or fixes, I would suggest to submit an issue first before submitting a pull request. This avoids closed pull-requests; useless work.
+
+At the end of the day, just feel free.
+
+### Building
+
+Check [`docs/building`](https://github.com/srph/str-concat.js/blob/master/docs/building.md)
+
 ## Acknowledgement
 
 **str-concat** © 2015+, Kier Borromeo (srph). **str-concat** is released under the [MIT](mit-license.org) license.
