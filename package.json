@@ -1,5 +1,5 @@
 {
-  "name": "str-concat",
+  "name": "srph-str-concat",
   "version": "0.1.0",
   "description": "Conditionally concatenate strings",
   "main": "index.js",
