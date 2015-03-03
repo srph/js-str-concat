@@ -1,0 +1,26 @@
+{
+  "name": "srph-str-concat",
+  "version": "0.1.0",
+  "homepage": "https://github.com/srph/str-concat.js",
+  "authors": [
+    "srph <seraphipod@gmail.com>"
+  ],
+  "description": "Conditionally concatenate strings",
+  "main": "src/index.js",
+  "keywords": [
+    "string",
+    "concat",
+    "concatenate",
+    "classNames",
+    "class",
+    "react"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

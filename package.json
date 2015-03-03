@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "./node_modules/jasmine-node/bin/jasmine-node ./tests/"
+    "test": "./node_modules/jasmine-node/bin/jasmine-node ./tests/",
+    "uglify": "uglifyjs ./src/index.js -c -m -o ./dist/str-concat.min.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/srph/str-concat.js",
   "devDependencies": {
     "jasmine": "^2.2.1",
-    "jasmine-node": "^1.14.5"
+    "jasmine-node": "^1.14.5",
+    "uglify-js": "^2.4.16"
   }
 }
