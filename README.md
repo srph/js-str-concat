@@ -1,6 +1,6 @@
 ![cover](https://cloud.githubusercontent.com/assets/5093058/6545434/14d17d92-c5c2-11e4-97fe-4517b365c3d5.png)
 
-# str-concat.js [![Build Status](https://travis-ci.org/srph/str-concat.js.svg?branch=master)](https://travis-ci.org/srph/str-concat.js?branch=master) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT) [![Author](http://img.shields.io/badge/author-@srph-blue.svg)](http://img.shields.io/badge/author-@srph-blue.svg)
+# str-concat.js [![Build Status](https://travis-ci.org/srph/str-concat.js.svg?branch=master)](https://travis-ci.org/srph/str-concat.js?branch=master) [![npm version](http://img.shields.io/npm/v/srph-str-concat.svg?style=flat)](https://npmjs.org/package/srph-str-concat) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 Conditionally concatenate strings.
 
@@ -26,27 +26,37 @@ if ( /* insert true statement */ ){
 console.log(classNames) // classNames => className1 className3
 ```
 
-This is helpful for adding `class`es to an `element` conditionally (like in *vanilla*, or in *ReactJS*, for example).
+Compared to how simple and clean this is:
+
+```js
+concat({
+  'className1': true,
+  'className2': false,
+  'className3': true
+}); // => true
+```
+
+This is helpful for adding `class`es to an `element` conditionally (like in adding classes in *vanilla* or in *ReactJS*, for example).
 
 ## Installation
 
 - **str-concat.js** is available via [**npm**]
 
 ```bash
-$ npm install srph-str-concat.js --save
+$ npm install srph-str-concat --save
 ```
 
 - **str-concat.js** is available via [**bower**]
 
 ```bash
-$ bower install srph-str-concat.js --save
+$ bower install srph-str-concat --save
 ```
 
 \* *The purpose of the `--save` argument is to add it your `package.json`''s or `bower.json`'s dependencies.*
 
 - **str-concat.js** is available via [**RawGit** (CDN)]
 
-```
+```html
 <!-- use this on production -->
 https://cdn.rawgit.com/srph/str-concat.js/master/dist/str-concat.min.js
 <!-- otherwise use this for development / testing -->
@@ -65,19 +75,18 @@ If you're not using *CommonJS* Modules (*browserify*, *Webpack*, w/e), or *AMD* 
 
 ## Usage
 
-Our function accepts `1` argument (`Object`).
+Our function accepts `1` argument (`Object`) and `return`s a `string`.
 
 ```js
-var concat = require('str-concat');
+var concat = require('srph-str-concat');
 
-var isColMd6 = true;
 var classNames = concat({
-  'col-md-6': isColMd6,
+  'col-md-6': 5 == 5,
   'form-group': true,
   'yolo-class': false
 });
 
-console.log(classNames) // => col-md-6 form-group
+console.log(classNames); // => col-md-6 form-group
 ```
 
 ### Browser-use
