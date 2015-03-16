@@ -63,7 +63,7 @@ https://cdn.rawgit.com/srph/str-concat.js/master/dist/str-concat.min.js
 https://rawgit.com/srph/str-concat.js/master/dist/str-concat.min.js
 ```
 
-\* *If you're not sure which to use, just use the first one.*
+\* *Just pick one. If you're not sure which, just pick the first one.*
 
 ### Browser-use
 
@@ -117,6 +117,10 @@ Check [`docs/faq`](https://github.com/srph/str-concat.js/blob/master/docs/faq.md
 ## Changelog
 
 Check [`docs/changelog`](https://github.com/srph/str-concat.js/blob/master/docs/changelog.md).
+
+## Alternatives
+
+- [**classnames** (`JedWatson/classnames`)](https://github.com/JedWatson/classnames)
 
 ## Acknowledgement
 
