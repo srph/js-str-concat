@@ -120,7 +120,7 @@ Check [`docs/changelog`](https://github.com/srph/str-concat.js/blob/master/docs/
 
 ## Acknowledgement
 
-**str-concat** © 2015+, Kier Borromeo (srph). **str-concat** is released under the [MIT](mit-license.org) license.
+**str-concat.js** © 2015+, Kier Borromeo (srph). **str-concat.js** is released under the [MIT](mit-license.org) license.
 
 > [srph.github.io](http://srph.github.io) &nbsp;&middot;&nbsp;
 > GitHub [@srph](https://github.com/srph) &nbsp;&middot;&nbsp;
