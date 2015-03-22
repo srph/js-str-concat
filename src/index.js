@@ -20,23 +20,41 @@
     root.strConcat = factory();
   }
 }(this, function () {
-  return function strConcat(strings) {
-    // Let's first check if the provided `strings` is not an object
-    if ( typeof strings !== 'object') {
-      throw new Error(
-        'Strings to be concatenated must be an object, ' +
-        'in form of { "yolo": true }'
-      );
-    }
-  
+  return function strConcat() {
     var keys = Object.keys(strings); // Keys of the object
     var result = ''; // Our resulting string, where each string will be concatenated
     
-    keys.forEach(function(key) {
-      // We'll concatenate if the value of key (`{yolo: true}`) is `true`
-      if ( strings[key] === true )
-        result += (result == '' ? '' : ' ') + key;
-    });
+    // Iterate through all arguments to check all parameters since
+    // we accept `concat('my-class', 'whatever-class', { 'awesome': false })`
+    // which is a shorthand for `concat({ 'my-class: true', 'whatever-class': true, 'awesome': false })`;
+    for ( var i = 0; i < arguments.length; i++ ) {
+      var arg = arguments[i];
+      
+      // I don't think an array would make sense, like so:
+      // `concat(['my-class', 'whatever-class']). It's just bullshit.
+      // For numbers, why would you pass a number here?!?!?!?
+      // Anyway, we'll bail.
+      if ( Array.isArray(arg) || typeof arg == 'number' ) {
+        throw new Error('You provided an invalid argument (array | number).');
+      }
+      
+      // Then we'll check if the argument is either an
+      // object or string to properly concatenate the strings.
+      // For objects, we'll first check if the key values
+      // are strictly equal to `true`. Otherwise (for strings),
+      // simply concatenate.
+      if ( typeof arg === "object" ) {
+        // Iterate through each passed key, and then
+        // concatenate if the value of key is true
+        for ( key in keys ) {
+          if ( arg[key] === true ) {
+            result += (!result.length ? '' : ' ') + key;
+          }
+        }
+      } else if ( typeof arg == "string" ) {
+        result += (!result.length ? '' : ' ') + arg;
+      }
+    }
   
     return result;
   }
