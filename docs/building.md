@@ -16,4 +16,5 @@ $ git clone https://github.com/srph/str-concat.js.git
 
 ```bash
 $ npm test # run tests
+$ npm run uglify # uglify the script (for production)
 ```
