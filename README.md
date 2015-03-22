@@ -1,6 +1,6 @@
 ![cover](https://cloud.githubusercontent.com/assets/5093058/6545434/14d17d92-c5c2-11e4-97fe-4517b365c3d5.png)
 
-# str-concat.js [![Build Status](https://travis-ci.org/srph/js-str-concat.svg?branch=master)](https://travis-ci.org/srph/js-str-concat?branch=master) [![npm version](http://img.shields.io/npm/v/srph-str-concat.svg?style=flat)](https://npmjs.org/package/srph-str-concat) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+# js-str-concat [![Build Status](https://travis-ci.org/srph/js-str-concat.svg?branch=master)](https://travis-ci.org/srph/js-str-concat?branch=master) [![npm version](http://img.shields.io/npm/v/srph-str-concat.svg?style=flat)](https://npmjs.org/package/srph-str-concat) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 Conditionally concatenate strings.
 
@@ -118,13 +118,9 @@ Check [`docs/faq`](https://github.com/srph/str-concat.js/blob/master/docs/faq.md
 
 Check [`docs/changelog`](https://github.com/srph/str-concat.js/blob/master/docs/changelog.md).
 
-## Alternatives
-
-- [**classnames** (`JedWatson/classnames`)](https://github.com/JedWatson/classnames)
-
 ## Acknowledgement
 
-**str-concat.js** © 2015+, Kier Borromeo (srph). **str-concat.js** is released under the [MIT](mit-license.org) license.
+**js-str-concat** © 2015+, Kier Borromeo (srph). **js-str-concat** is released under the [MIT](mit-license.org) license.
 
 > [srph.github.io](http://srph.github.io) &nbsp;&middot;&nbsp;
 > GitHub [@srph](https://github.com/srph) &nbsp;&middot;&nbsp;
