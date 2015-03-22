@@ -1,6 +1,6 @@
 ![cover](https://cloud.githubusercontent.com/assets/5093058/6545434/14d17d92-c5c2-11e4-97fe-4517b365c3d5.png)
 
-# str-concat.js [![Build Status](https://travis-ci.org/srph/str-concat.js.svg?branch=master)](https://travis-ci.org/srph/str-concat.js?branch=master) [![npm version](http://img.shields.io/npm/v/srph-str-concat.svg?style=flat)](https://npmjs.org/package/srph-str-concat) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+# str-concat.js [![Build Status](https://travis-ci.org/srph/js-str-concat.svg?branch=master)](https://travis-ci.org/srph/js-str-concat?branch=master) [![npm version](http://img.shields.io/npm/v/srph-str-concat.svg?style=flat)](https://npmjs.org/package/srph-str-concat) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 Conditionally concatenate strings.
 
