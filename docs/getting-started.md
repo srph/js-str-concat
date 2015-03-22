@@ -41,7 +41,11 @@ var classNames = concat({
 console.log(classNames); // => col-md-6 form-group
 ```
 
-## Browser-use
+### Non-node use
+
+Yes. This library consumes [UMD](https://github.com/umdjs/umd/blob/master/returnExports.js), meaning that it supports Require.js and Browser-use (exported as a browser global `strConcat`).
+
+### Browser-use
 
 For those who use it directly in the browser, you can use it like so:
 
