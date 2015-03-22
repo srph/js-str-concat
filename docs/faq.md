@@ -4,6 +4,6 @@
 
 Yes. This library consumes [UMD](https://github.com/umdjs/umd/blob/master/returnExports.js).
 
-## Why is this named as `srph-str-concat` instead of `str-concat` in package managers?
+### Alternatives
 
-I don't see the reason why I should be using `str-concat`.
+- [**classnames** (`JedWatson/classnames`)](https://github.com/JedWatson/classnames)
