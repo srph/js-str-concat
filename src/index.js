@@ -20,8 +20,7 @@
     root.strConcat = factory();
   }
 }(this, function () {
-  return function strConcat() {
-    var keys = Object.keys(strings); // Keys of the object
+  return function() {
     var result = ''; // Our resulting string, where each string will be concatenated
     
     // Iterate through all arguments to check all parameters since
