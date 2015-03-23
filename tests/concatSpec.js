@@ -1,9 +1,18 @@
 var concat = require('../src/index');
 
 describe('concat', function() {
-  it('should throw an error if given value is not an object', function() {
-    expect(function() { concat(123) }).toThrow();
-    expect(function() { concat('asd') }).toThrow();
+  describe('argument exceptions', function() {
+    it('should throw an error if given value is not an object or string', function() {
+      expect(function() { concat(123) }).toThrow();
+      expect(function() { concat([]) }).toThrow();
+      expect(function() { concat(['asd', 1]) }).toThrow();
+    });
+    
+    it('should not throw an error if given value is an object or string', function() {
+      expect(function() { concat('asd', 'asd') }).toThrow();
+      expect(function() { concat('asd', {}) }).toThrow();
+      expect(function() { concat({ 'asd': true }, { 'asd2': false }).toThrow();
+    });
   });
   
   it('should give me the appropriate class name based on the provided argument', function() {
