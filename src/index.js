@@ -45,7 +45,7 @@
       if ( typeof arg === "object" ) {
         // Iterate through each passed key, and then
         // concatenate if the value of key is true
-        for ( key in keys ) {
+        for ( key in arg ) {
           if ( arg[key] === true ) {
             result += (!result.length ? '' : ' ') + key;
           }
